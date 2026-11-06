@@ -1,0 +1,6 @@
+﻿# Local browser profile and verification artifacts are not deployment assets.
+checks/browser-profile/
+checks/*.png
+checks/*.ics
+wedding-invitation.zip
+checks/*.log

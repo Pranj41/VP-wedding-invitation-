@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4ed">
+  <title>Varsha &amp; Pranjal | Wedding Invitation</title>
+  <meta name="description" content="Join us as we celebrate the wedding of Varsha Gurde and Pranjal Verma on 11–12 December 2026 in Bhilai.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Varsha &amp; Pranjal | Wedding Invitation">
+  <meta property="og:description" content="Join us as we celebrate our wedding on 11–12 December 2026.">
+  <meta property="og:image" content="./assets/wedding-preview.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/countdown.js" defer></script>
+  <script src="./js/scratch.js" defer></script>
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to invitation</a>
+  <div class="intro" id="intro" role="dialog" aria-modal="true" aria-label="Our wedding introduction" hidden>
+    <div class="intro-fallback"><span class="monogram" data-logo>V<span>&amp;</span>P</span><p>A little beginning to our forever</p></div>
+    <video id="intro-video" autoplay muted playsinline preload="metadata" aria-label="Varsha and Pranjal wedding logo animation"></video>
+    <button class="intro-skip" id="skip-intro">Skip Intro <span aria-hidden="true">↗</span></button>
+  </div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Varsha and Pranjal, home">V<span>&amp;</span>P</a>
+    <nav class="desktop-nav" aria-label="Main navigation"><a href="#date">The date</a><a href="#couple">Our story</a><a href="#events">Celebrations</a><a href="#venue">The venue</a></nav>
+    <a class="header-note" href="#invitation">You're invited <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" data-hero src="./assets/photos/hero-couple.jpg" width="1600" height="1066" alt="Varsha and Pranjal together at their ceremony" fetchpriority="high">
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <span class="floral-divider hero-ornament" aria-hidden="true"></span>
+        <p class="eyebrow">Together with their families</p>
+        <h1 id="hero-title"><span data-bride>Varsha</span><i>&amp;</i><span data-groom>Pranjal</span></h1>
+        <p class="hero-announcement">We're getting married</p>
+        <p class="signature" data-hashtag>#PRAyers_VARified</p>
+        <p class="hero-quote">Two lives. Two stories. One forever.</p>
+        <a class="button button-light" href="#date">Reveal our wedding date <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-bottom"><span>A celebration of love &amp; togetherness</span><a href="#date" aria-label="Scroll to reveal our wedding date">SCROLL TO DISCOVER <span class="scroll-arrow" aria-hidden="true">↓</span></a><span>Bhilai, Chhattisgarh</span></div>
+    </section>
+    <section class="date-section section-pad" id="date" aria-labelledby="date-title">
+      <div class="section-heading reveal"><p class="eyebrow">A little surprise, just for you</p><span class="lotus-divider" aria-hidden="true"></span><h2 id="date-title">Our forever has a <em>date.</em></h2><p>Scratch to reveal our special date <span class="heart">♡</span></p></div>
+      <div class="scratch-wrap reveal">
+        <span class="corner corner-tl" aria-hidden="true"></span><span class="corner corner-br" aria-hidden="true"></span>
+        <div class="scratch-card" id="scratch-card">
+          <div class="date-content" id="date-content" aria-hidden="true">
+            <span class="monogram small scratch-monogram" data-scratch-logo>V<span>&amp;</span>P</span>
+            <p class="scratch-save-date">Save the date</p><p class="date-numbers" data-date-days>11 &amp; 12</p><p class="date-month" data-date-month>December</p><p class="date-year" data-date-year>2026</p>
+            <p class="date-couple"><span data-bride>Varsha</span> <span class="heart">♡</span> <span data-groom>Pranjal</span></p><p class="signature" data-hashtag>#PRAyers_VARified</p>
+          </div>
+          <canvas id="scratch-canvas" aria-hidden="true"></canvas>
+        </div>
+      </div>
+      <button class="text-button" id="reveal-date">Reveal without scratching <span aria-hidden="true">↗</span></button>
+      <p class="reveal-message" id="reveal-message" role="status"></p>
+      <div class="countdown-wrap" id="countdown-wrap" hidden><p class="eyebrow">Until we say forever</p><div class="countdown" id="countdown" role="timer" aria-label="Time until the wedding"><div><span data-unit="days">00</span><small>Days</small></div><b>:</b><div><span data-unit="hours">00</span><small>Hours</small></div><b>:</b><div><span data-unit="minutes">00</span><small>Minutes</small></div><b>:</b><div><span data-unit="seconds">00</span><small>Seconds</small></div></div><p class="timezone-note">Counting down to the phere · 2:00 PM IST</p></div>
+      <noscript><p>Save the date: 11–12 December 2026. Our wedding ceremony begins on 12 December at 2:00 PM IST.</p></noscript>
+    </section>
+    <section class="couple-section section-pad" id="couple" aria-labelledby="couple-title">
+      <div class="section-heading reveal"><p class="eyebrow">A beautiful kind of meant to be</p><h2 id="couple-title">Two hearts, one<br><em>beautiful journey.</em></h2></div>
+      <div class="couple-layout">
+        <article class="person reveal"><span class="lotus-seal" aria-hidden="true"></span><p class="eyebrow">The bride</p><h3 data-bride-full>Varsha Gurde</h3><p>Daughter of</p><p class="parents" data-bride-parents>Ramu Gurde<br>&amp; Shakuntala Gurde</p><div class="person-photo"><img src="./assets/photos/couple-03.jpg" data-photo="2" alt="Varsha and Pranjal dressed for their celebration" loading="lazy" width="1024" height="1280"></div></article>
+        <div class="couple-center reveal"><span class="vertical-line"></span><span class="large-amp">&amp;</span><p>From different worlds<br>to one beautiful forever.</p><span class="vertical-line"></span></div>
+        <article class="person reveal"><span class="lotus-seal" aria-hidden="true"></span><p class="eyebrow">The groom</p><h3 data-groom-full>Pranjal Verma</h3><p>Son of</p><p class="parents" data-groom-parents>Bhagirathi Verma<br>&amp; Arti Verma</p><div class="person-photo"><img src="./assets/photos/couple-02.jpg" data-photo="1" alt="Pranjal and Varsha sharing a moment on the steps" loading="lazy" width="1594" height="1600"></div></article>
+      </div>
+    </section>
+    <section class="events-section section-pad" id="events" aria-labelledby="events-title"><div class="section-heading reveal"><p class="eyebrow">Two days. A lifetime of memories.</p><h2 id="events-title">Our wedding <em>celebrations.</em></h2><p>Bring your blessings, your laughter, and your dancing shoes.</p></div><div class="timeline" id="timeline"></div><p class="event-note">All celebrations at <span data-venue-name>The Mark Club &amp; Resort</span> · All times IST</p></section>
+    <section class="venue-section section-pad" id="venue" aria-labelledby="venue-title"><div class="venue-art reveal"><img class="venue-photo" src="./assets/photos/venue-mark-edited.png" alt="The Mark Club &amp; Resort entrance in Bhilai" width="1448" height="1086" loading="lazy"></div><div class="venue-copy reveal"><p class="eyebrow">The destination</p><h2 id="venue-title">Where we<br> <em>celebrate.</em></h2><span class="fine-rule"></span><h3 data-venue-name>The Mark Club &amp; Resort</h3><p data-venue-address>Dhanora, Bhilai<br>Chhattisgarh</p><a class="button button-dark" id="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=The+Mark+Club+%26+Resort+Dhanora+Bhilai" target="_blank" rel="noopener noreferrer">Open in Google Maps <span aria-hidden="true">↗</span></a></div></section>
+    <section class="quote-section section-pad reveal"><span class="lotus-seal" aria-hidden="true"></span><blockquote>“We started as two stories,<br>and now we're writing<br><em>one forever.</em>”</blockquote><p class="eyebrow">— <span data-bride>Varsha</span> &amp; <span data-groom>Pranjal</span></p></section>
+    <section class="final-section" id="invitation" aria-labelledby="invitation-title"><img class="final-image" data-hero src="./assets/photos/hero-couple.jpg" width="1600" height="1066" alt="Varsha and Pranjal at their engagement ceremony" loading="lazy"><div class="final-shade"></div><div class="final-copy reveal"><span class="monogram light" data-logo>V<span>&amp;</span>P</span><p>With love,<br>we invite you to celebrate the beginning<br>of our forever.</p><h2 id="invitation-title"><span data-bride>Varsha</span> <i>&amp;</i> <span data-groom>Pranjal</span></h2><p class="final-date" data-date-range>11–12 December 2026</p><p><span data-venue-name>The Mark Club &amp; Resort</span><br><span data-venue-short>Dhanora, Bhilai</span></p><p class="signature" data-hashtag>#PRAyers_VARified</p><p class="final-welcome">We can't wait to celebrate with you.</p><div class="button-group"><button class="button button-light" data-calendar>Add to Calendar</button><a class="button button-ghost" href="#venue">View Venue</a></div></div></section>
+    <section class="share-section"><p>Capture the moments. Share the memories.</p><p class="signature" data-hashtag>#PRAyers_VARified</p><button class="text-button" id="copy-hashtag">Copy Hashtag <span aria-hidden="true">⧉</span></button></section>
+  </main>
+  <footer><a class="brand" href="#home" aria-label="Back to top">V<span>&amp;</span>P</a><p>Made with <span class="heart">♥</span> for <span data-bride>Varsha</span> &amp; <span data-groom>Pranjal</span></p><span class="footer-note">The beginning of forever</span></footer>
+  <nav class="mobile-nav" aria-label="Mobile navigation"><a href="#home">Home</a><a href="#date">Date</a><a href="#events">Events</a><a href="#venue">Venue</a></nav>
+  <button class="music-button" id="music-toggle" aria-label="Play wedding music" aria-pressed="false" hidden>♪</button><audio id="music" loop preload="none"></audio>
+  <dialog class="lightbox" id="lightbox" aria-label="Couple photo gallery"><button class="lightbox-close" id="lightbox-close" aria-label="Close photo gallery">×</button><button class="lightbox-prev" id="lightbox-prev" aria-label="Previous photo">←</button><figure><img id="lightbox-image" alt=""><figcaption id="lightbox-caption"></figcaption></figure><button class="lightbox-next" id="lightbox-next" aria-label="Next photo">→</button></dialog>
+  <div class="toast" id="toast" role="status"></div>
+</body>
+</html>
+
+
